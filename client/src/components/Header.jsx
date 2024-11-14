@@ -8,13 +8,17 @@ const Header = () => {
           Mi tienda en <spam className='text-white'> Linea </spam>
         </h1>
         <nav className='flex flex-col items-center lg:flex-row mt-5 lg:mt-0 gap-4'>
-          <Link className='text-white uppercase' to='/admin'>
+          <Link className='text-white uppercase' to='/'>
             {' '}
-            Categorias{' '}
+            Categorias
           </Link>
-          <Link className='text-white uppercase' to='/admin/profile'>
+          <Link className='text-white uppercase' to='/'>
             {' '}
-            Productos{' '}
+            Ofertas
+          </Link>
+          <Link className='text-white uppercase' to='/register'>
+            {' '}
+            Crear Cuenta{' '}
           </Link>
           <button type='button' className='text-white uppercase'>
             {' '}

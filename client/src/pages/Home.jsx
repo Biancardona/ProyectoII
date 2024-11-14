@@ -1,10 +1,11 @@
 import Header from '../components/Header';
-
+import Products from '../components/Products';
+import products from '../mocks/products';
 const Home = () => {
   return (
     <div>
-      <Header></Header>
-      Home
+      <Header />
+      <Products products={products.products} />
     </div>
   );
 };
