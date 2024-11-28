@@ -1,39 +1,27 @@
-import { AddToCartIcon } from './Icons';
+import Product from './Product';
 
 const Products = ({ products }) => {
   return (
-    <>
+    <div className='grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 p-4'>
       {products.length ? (
         <>
-          <h2 className='text-3xl font-bold text-center'>
+          <h2 className='text-3xl font-bold text-center col-span-full'>
             Listado de Productos{' '}
           </h2>
-          <ul>
-            {products.map((product) => (
-              <li key={product.id}>
-                <div>
-                  <img src={product.thumbnail} alt={product.title} />
-                </div>
-                <div>
-                  <strong>{product.title}</strong> -${product.price}
-                </div>
-                <div>
-                  <button>
-                    <AddToCartIcon />
-                  </button>
-                </div>
-              </li>
-            ))}
-          </ul>
+          {products.slice(0, 10).map((product) => (
+            <div key={product.id}>
+              <Product productProp={product} />
+            </div>
+          ))}
         </>
       ) : (
         <>
-          <h2 className='text-3xl font-bold text-center'>
+          <h2 className='text-3xl font-bold text-center sol-span-full'>
             No hay productos disponibles
           </h2>{' '}
         </>
       )}
-    </>
+    </div>
   );
 };
 
