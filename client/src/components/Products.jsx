@@ -8,19 +8,23 @@ const Products = ({ products }) => {
           <h2 className='text-3xl font-bold text-center'>
             Listado de Productos{' '}
           </h2>
-          {products.map((product) => (
-            <li key={product.id}>
-              <img src={product.thumbnail} alt={product.title} />
-              <div>
-                <strong>{product.title}</strong> -${product.price}
-              </div>
-              <div>
-                <button>
-                  <AddToCartIcon />
-                </button>
-              </div>
-            </li>
-          ))}
+          <ul>
+            {products.map((product) => (
+              <li key={product.id}>
+                <div>
+                  <img src={product.thumbnail} alt={product.title} />
+                </div>
+                <div>
+                  <strong>{product.title}</strong> -${product.price}
+                </div>
+                <div>
+                  <button>
+                    <AddToCartIcon />
+                  </button>
+                </div>
+              </li>
+            ))}
+          </ul>
         </>
       ) : (
         <>
