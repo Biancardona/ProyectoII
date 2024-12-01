@@ -8,6 +8,10 @@ const Header = () => {
           Mi tienda en <spam className='text-white'> Linea </spam>
         </h1>
         <nav className='flex flex-col items-center lg:flex-row mt-5 lg:mt-0 gap-4'>
+          <Link className='text-white uppercase' to='/menu'>
+            {' '}
+            Menú
+          </Link>
           <Link className='text-white uppercase' to='/'>
             {' '}
             Categorias
