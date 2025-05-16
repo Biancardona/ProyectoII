@@ -9,8 +9,8 @@
     "stock": 50,
     "brand": "Street Wear Collection",
     "category": "SW",
-    "thumbnail": "/src/mocks/Imagenes/SW1.webp",
-    "images": ["/src/mocks/Imagenes/SW1.webp"]
+    "thumbnail": "/Imagenes/SW2.webp",
+    "images": ["/Imagenes/SW2.webp"]
   },
   {
     "id": 2,
@@ -22,8 +22,8 @@
     "stock": 45,
     "brand": "Street Wear Collection",
     "category": "SW",
-    "thumbnail": "/src/mocks/Imagenes/SW2.webp",
-    "images": ["/src/mocks/Imagenes/SW2.webp"]
+    "thumbnail": "/Imagenes/SW3.webp",
+    "images": ["/Imagenes/SW3.webp"]
   },
   {
     "id": 3,
@@ -35,8 +35,8 @@
     "stock": 35,
     "brand": "Street Wear Collection",
     "category": "SW",
-    "thumbnail": "/src/mocks/Imagenes/SW3.webp",
-    "images": ["/src/mocks/Imagenes/SW3.webp"]
+    "thumbnail": "/Imagenes/SW4.webp",
+    "images": ["/Imagenes/SW4.webp"]
   },
   {
     "id": 4,
@@ -48,8 +48,8 @@
     "stock": 40,
     "brand": "Street Wear Collection",
     "category": "SW",
-    "thumbnail": "/src/mocks/Imagenes/SW4.webp",
-    "images": ["/src/mocks/Imagenes/SW4.webp"]
+    "thumbnail": "/Imagenes/SW5.webp",
+    "images": ["/Imagenes/SW5.webp"]
   },
   {
     "id": 5,
@@ -61,8 +61,8 @@
     "stock": 60,
     "brand": "Street Wear Collection",
     "category": "SW",
-    "thumbnail": "/src/mocks/Imagenes/SW5.webp",
-    "images": ["/src/mocks/Imagenes/SW5.webp"]
+    "thumbnail": "/Imagenes/SW1.webp",
+    "images": ["/Imagenes/SW1.webp"]
   },
   {
     "id": 6,
@@ -74,8 +74,8 @@
     "stock": 75,
     "brand": "Minimal Tees Collection",
     "category": "MT",
-    "thumbnail": "/src/mocks/Imagenes/MT1.webp",
-    "images": ["/src/mocks/Imagenes/MT1.webp"]
+    "thumbnail": "/Imagenes/MT1.webp",
+    "images": ["/Imagenes/MT1.webp"]
   },
   {
     "id": 7,
@@ -87,8 +87,8 @@
     "stock": 65,
     "brand": "Minimal Tees Collection",
     "category": "MT",
-    "thumbnail": "/src/mocks/Imagenes/MT2.webp",
-    "images": ["/src/mocks/Imagenes/MT2.webp"]
+    "thumbnail": "/Imagenes/MT2.webp",
+    "images": ["/Imagenes/MT2.webp"]
   },
   {
     "id": 8,
@@ -100,8 +100,8 @@
     "stock": 55,
     "brand": "Minimal Tees Collection",
     "category": "MT",
-    "thumbnail": "/src/mocks/Imagenes/MT3.webp",
-    "images": ["/src/mocks/Imagenes/MT3.webp"]
+    "thumbnail": "/Imagenes/MT3.webp",
+    "images": ["/Imagenes/MT3.webp"]
   },
   {
     "id": 9,
@@ -113,8 +113,8 @@
     "stock": 70,
     "brand": "Minimal Tees Collection",
     "category": "MT",
-    "thumbnail": "/src/mocks/Imagenes/MT4.webp",
-    "images": ["/src/mocks/Imagenes/MT4.webp"]
+    "thumbnail": "/Imagenes/MT4.webp",
+    "images": ["/Imagenes/MT4.webp"]
   },
   {
     "id": 10,
@@ -126,7 +126,7 @@
     "stock": 80,
     "brand": "Minimal Tees Collection",
     "category": "MT",
-    "thumbnail": "/src/mocks/Imagenes/MT5.webp",
-    "images": ["/src/mocks/Imagenes/MT5.webp"]
+    "thumbnail": "/Imagenes/MT5.webp",
+    "images": ["/Imagenes/MT5.webp"]
   }
 ]
