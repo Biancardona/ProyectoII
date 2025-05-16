@@ -2,7 +2,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Layout from './layout/Layout';
 import Home from './pages/Home';
-import Menu from './pages/Menu';
+import Tienda from './pages/Tienda';
+import StoreCategory from './pages/StoreCategory';
 import './App.css';
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path='menu' element={<Menu />} />
+          <Route path='/tienda' element={<Tienda />} />
+          <Route path='/tienda/:category' element={<StoreCategory />} />
         </Route>
       </Routes>
     </BrowserRouter>
