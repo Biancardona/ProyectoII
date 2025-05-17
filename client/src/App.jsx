@@ -4,6 +4,9 @@ import Layout from './layout/Layout';
 import Home from './pages/Home';
 import Tienda from './pages/Tienda';
 import StoreCategory from './pages/StoreCategory';
+import AboutUs from './pages/AboutUs';
+import ContactPage from './pages/ContactPage';
+import Faqs from './pages/Faqs';
 import './App.css';
 
 function App() {
@@ -14,6 +17,9 @@ function App() {
           <Route index element={<Home />} />
           <Route path='/tienda' element={<Tienda />} />
           <Route path='/tienda/:category' element={<StoreCategory />} />
+          <Route path='/quienes-somos' element={<AboutUs />} />
+          <Route path='/contacto' element={<ContactPage />} />
+          <Route path='/faqs' element={<Faqs />} />
         </Route>
       </Routes>
     </BrowserRouter>

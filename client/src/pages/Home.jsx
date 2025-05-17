@@ -14,7 +14,7 @@ const Home = () => {
       <Banner />
       <div className='p-4 space-y-12'>
         <section>
-          <div className='flex justify-between items-center mb-4'>
+          <div className='text-center mb-4'>
             <h2 className='text-3xl font-bold text-center text-indigo-600'>
               Street Wear
             </h2>
@@ -28,7 +28,7 @@ const Home = () => {
           <Products products={streetWear.slice(0, 4)} />
         </section>
         <section>
-          <div className='flex justify-between items-center mb-4'>
+          <div className='text-center mb-4'>
             <h2 className='text-3xl text-center font-bold text-pink-600'>
               Minimal Tees
             </h2>
