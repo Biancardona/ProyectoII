@@ -44,8 +44,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='text-center text-xs text-gray-400 mt-10'>
-        © {new Date().getFullYear()} TuNombre o Marca. Todos los derechos
-        reservados.
+        © {new Date().getFullYear()} TeeLab. Todos los derechos reservados.
       </div>
     </footer>
   );

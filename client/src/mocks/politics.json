@@ -1,0 +1,23 @@
+{
+    "qualityPolicies": {
+      "title": "Políticas de Calidad",
+      "content": [
+        "Todas nuestras camisetas están confeccionadas con algodón 100% premium.",
+        "Nos comprometemos a mantener estándares éticos en toda nuestra cadena de producción.",
+        "Realizamos controles de calidad estrictos en cada etapa del proceso de fabricación.",
+        "Promovemos prácticas sostenibles utilizando materiales responsables y reduciendo el desperdicio.",
+        "Trabajamos con proveedores que comparten nuestros valores de calidad y responsabilidad social."
+      ]
+    },
+    "privacyPolicy": {
+      "title": "Política de Privacidad",
+      "content": [
+        "En TeeLab, tu privacidad es una prioridad. Esta política describe cómo recopilamos, usamos y protegemos tu información.",
+        "Recopilamos datos personales como nombre, correo electrónico y dirección solo con tu consentimiento y para procesar pedidos.",
+        "Tus datos no serán compartidos con terceros, salvo cuando sea necesario para cumplir con obligaciones legales o servicios relacionados con tu compra.",
+        "Utilizamos tecnologías seguras para proteger tu información y prevenir accesos no autorizados.",
+        "Puedes solicitar en cualquier momento el acceso, modificación o eliminación de tus datos personales."
+      ]
+    }
+  }
+  

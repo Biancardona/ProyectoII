@@ -7,6 +7,7 @@ import StoreCategory from './pages/StoreCategory';
 import AboutUs from './pages/AboutUs';
 import ContactPage from './pages/ContactPage';
 import Faqs from './pages/Faqs';
+import Politics from './pages/Politics';
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path='/tienda' element={<Tienda />} />
           <Route path='/tienda/:category' element={<StoreCategory />} />
           <Route path='/quienes-somos' element={<AboutUs />} />
+          <Route path='/politicas' element={<Politics />} />
           <Route path='/contacto' element={<ContactPage />} />
           <Route path='/faqs' element={<Faqs />} />
         </Route>

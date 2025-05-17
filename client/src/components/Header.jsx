@@ -8,7 +8,7 @@ const Header = () => {
     <header className='py-10 bg-indigo-600'>
       <div className='container mx-auto flex flex-col lg:flex-row justify-between items-center'>
         <Link to='/' className='font-bold text-2xl text-indigo-200 text-center'>
-          Mi tienda en <span className='text-white'>Linea</span>
+          Tee <span className='text-white'>Lab</span>
         </Link>
         <nav className='flex flex-col items-center lg:flex-row mt-5 lg:mt-0 gap-4'>
           <Link className='text-white uppercase' to='/tienda'>
@@ -48,14 +48,14 @@ const Header = () => {
             {' '}
             Quienes somos
           </Link>
-          <Link className='text-white uppercase' to='/'>
+          <Link className='text-white uppercase' to='/politicas'>
             {' '}
-            Crear Cuenta{' '}
+            Políticas{' '}
           </Link>
-          <button type='button' className='text-white uppercase'>
+          {/*   <button type='button' className='text-white uppercase'>
             {' '}
             Iniciar Sesion
-          </button>
+          </button> */}
         </nav>
       </div>
     </header>

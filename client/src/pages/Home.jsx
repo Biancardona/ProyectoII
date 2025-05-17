@@ -25,7 +25,7 @@ const Home = () => {
               Ver todo &rarr;
             </Link>
           </div>
-          <Products products={streetWear.slice(0, 4)} />
+          <Products products={streetWear.slice(0, 5)} />
         </section>
         <section>
           <div className='text-center mb-4'>
@@ -39,7 +39,7 @@ const Home = () => {
               Ver todo &rarr;
             </Link>
           </div>
-          <Products products={minimalTees.slice(0, 4)} />
+          <Products products={minimalTees.slice(0, 5)} />
         </section>
       </div>
     </div>
