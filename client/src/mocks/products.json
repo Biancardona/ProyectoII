@@ -128,5 +128,96 @@
     "category": "MT",
     "thumbnail": "/Imagenes/MT5.webp",
     "images": ["/Imagenes/MT5.webp"]
-  }
+  },
+  {
+    "id": 11,
+    "title": "Street Wear T-Shirt 6",
+    "description": "Stylish and modern streetwear essential.",
+    "price": 33.99,
+    "discountPercentage": 0,
+    "rating": 4.9,
+    "stock": 60,
+    "brand": "Street Wear Collection",
+    "category": "SW",
+    "thumbnail": "/Imagenes/SW6.webp",
+    "images": ["/Imagenes/SW6.webp"]
+  }, 
+   {
+    "id": 12,
+    "title": "Street Wear T-Shirt 7",
+    "description": "Stylish and modern streetwear essential.",
+    "price": 33.99,
+    "discountPercentage": 0,
+    "rating": 4.9,
+    "stock": 60,
+    "brand": "Street Wear Collection",
+    "category": "SW",
+    "thumbnail": "/Imagenes/SW7.webp",
+    "images": ["/Imagenes/SW7.webp"]
+  },  
+  {
+    "id": 13,
+    "title": "Street Wear T-Shirt 8",
+    "description": "Stylish and modern streetwear essential.",
+    "price": 33.99,
+    "discountPercentage": 0,
+    "rating": 4.9,
+    "stock": 60,
+    "brand": "Street Wear Collection",
+    "category": "SW",
+    "thumbnail": "/Imagenes/SW8.webp",
+    "images": ["/Imagenes/SW8.webp"]
+  },
+  {
+    "id": 13,
+    "title": "Street Wear T-Shirt- 9",
+    "description": "Stylish and modern streetwear essential.",
+    "price": 33.99,
+    "discountPercentage": 0,
+    "rating": 4.9,
+    "stock": 60,
+    "brand": "Street Wear Collection",
+    "category": "SW",
+    "thumbnail": "/Imagenes/SW9.webp",
+    "images": ["/Imagenes/SW9.webp"]
+  },
+  {
+    "id": 14,
+    "title": "Minimal Tee 8",
+    "description": "Stylish and modern streetwear essential.",
+    "price": 33.99,
+    "discountPercentage": 0,
+    "rating": 4.9,
+    "stock": 60,
+    "brand": "Street Wear Collection",
+    "category": "MT",
+    "thumbnail": "/Imagenes/MT8.webp",
+    "images": ["/Imagenes/MT8.webp"]
+  },  
+  {
+  "id": 17,
+  "title": "Minimal Tee 6",
+  "description": "Stylish and modern streetwear essential.",
+  "price": 33.99,
+  "discountPercentage": 0,
+  "rating": 4.9,
+  "stock": 60,
+  "brand": "Street Wear Collection",
+  "category": "MT",
+  "thumbnail": "/Imagenes/MT6.webp",
+  "images": ["/Imagenes/MT6.webp"]
+  },
+  {
+    "id": 18,
+    "title": "Minimal Tee 7",
+    "description": "Stylish and modern streetwear essential.",
+    "price": 33.99,
+    "discountPercentage": 0,
+    "rating": 4.9,
+    "stock": 60,
+    "brand": "Street Wear Collection",
+    "category": "MT",
+    "thumbnail": "/Imagenes/MT7.webp",
+    "images": ["/Imagenes/MT7.webp"]
+    }
 ]
