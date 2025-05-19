@@ -1,8 +1,26 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useRef, useEffect } from 'react';
 
 const Header = () => {
   const [showDropdown, setShowDropdown] = useState(false);
+  const dropdownRef = useRef(null);
+
+  // Cierra el dropdown si haces clic fuera de él
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
+        setShowDropdown(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    document.addEventListener('touchstart', handleClickOutside); // para móviles
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+      document.removeEventListener('touchstart', handleClickOutside);
+    };
+  }, []);
 
   return (
     <header className='py-10 bg-indigo-600'>
@@ -12,15 +30,18 @@ const Header = () => {
         </Link>
         <nav className='flex flex-col items-center lg:flex-row mt-5 lg:mt-0 gap-4'>
           <Link className='text-white uppercase' to='/tienda'>
-            {' '}
             Tienda
           </Link>
           <div
             className='relative'
+            ref={dropdownRef}
             onMouseEnter={() => setShowDropdown(true)}
             onMouseLeave={() => setShowDropdown(false)}
           >
-            <button className='uppercase text-white hover:underline'>
+            <button
+              className='uppercase text-white hover:underline'
+              onClick={() => setShowDropdown(!showDropdown)} // Soporte para móviles
+            >
               Categorías
             </button>
 
@@ -32,12 +53,14 @@ const Header = () => {
               <Link
                 to='/tienda/SW'
                 className='block px-4 py-2 hover:bg-gray-100'
+                onClick={() => setShowDropdown(false)}
               >
                 Street Wear
               </Link>
               <Link
                 to='/tienda/MT'
                 className='block px-4 py-2 hover:bg-gray-100'
+                onClick={() => setShowDropdown(false)}
               >
                 Minimal Tees
               </Link>
@@ -45,17 +68,11 @@ const Header = () => {
           </div>
 
           <Link className='text-white uppercase' to='/quienes-somos'>
-            {' '}
             Quienes somos
           </Link>
           <Link className='text-white uppercase' to='/politicas'>
-            {' '}
-            Políticas{' '}
+            Políticas
           </Link>
-          {/*   <button type='button' className='text-white uppercase'>
-            {' '}
-            Iniciar Sesion
-          </button> */}
         </nav>
       </div>
     </header>
